@@ -1,0 +1,271 @@
+body {
+    margin-top: 0;
+    height: 100vh;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+    justify-content: space-between;
+    -webkit-flex-flow: row wrap;
+
+}
+
+h1 {
+    color: white;
+    padding-right: 9%;
+    padding-left: 9%;
+}
+
+.border {
+    border-top: 2px solid #cccccc;
+    height: 43px;
+    background-color: AliceBlue;
+}
+
+.spaceholder {
+    flex-grow: 9;
+}
+
+.container {
+    flex-grow: 1;
+    background: #4aaaa5;
+    text-align: center;
+}
+
+.container2 {
+    flex-grow: 1;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+    margin:0px;
+
+}
+
+nav li:nth-child(2) {
+    margin-right:5%;
+    margin-left: 5%;
+    border-right: thin solid gainsboro;
+    border-left: thin solid gainsboro;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+nav li a {
+    text-decoration: none;
+    color: grey;
+
+}
+
+
+/*Following code is for everything under header's bottom border*/
+
+.all-content-container {
+    background-color: AliceBlue;
+    padding-bottom: 5%;
+    height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    /*Here's where I set margin for main content of the page*/
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 3%;
+    color: #777777;
+}
+
+
+
+.AboutMe {
+    padding: 4%;
+    background: #ffffff;
+    display: inline-block;
+    flex-grow: 2;
+    width: 50%;
+    border: solid 1px #dddddd;
+    margin-right: 4%;
+    font-size: 20px
+}
+
+.ContactMe {
+    justify-content: center;
+    align-content: center;
+    background-color: white;
+    flex-grow: 1;
+    border: solid 1px #dddddd;
+    text-align: center;
+    height: 80%;
+    color: #777777;
+}
+
+h3{
+    font-size: 20px;
+}
+
+hr {
+    margin: 5%;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul.icons {
+    padding: 5%;
+}
+
+aside li {
+    display: inline-block;
+}
+
+section img {
+    float: left;
+    margin-right: 5%;
+    width: 224px;
+    height: 150px;
+}
+
+aside img {
+    width: 80px;
+    height: 80px;
+}
+
+
+p {
+    margin-top: 0px;
+    color: #777777;
+}
+
+footer {
+    height: 70px;
+    border-top: solid 8px #4aaaa5;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1%;
+    background: #666666;
+    margin-bottom: 0px;
+
+}
+
+footer p {
+    color: white;
+
+}
+
+/*The Following code is for the Contact page*/
+
+.ContactForm {
+    padding: 4%;
+    background: #ffffff;
+    display: inline-block;
+    flex-grow: 2;
+    width: 50%;
+    border: solid 1px #dddddd;
+    margin-right: 4%;
+    font-size: 20px;
+    color: #777777;
+}
+
+.ContactForm hr {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1.5%;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 1%;
+    border: solid 1px #dddddd;
+
+}
+
+.submit_button {
+    text-decoration: none;
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    padding: 3%;
+    margin-top: 2%;
+    width: 25%;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+/*The following code is for the Portfolio page*/
+
+.portfolio-canvas {
+    padding: 4%;
+    background: #ffffff;
+    display: inline-block;
+    flex-grow: 2;
+    width: 50%;
+    border: solid 1px #dddddd;
+    margin-right: 4%;
+    font-size: 20px;
+    color: #777777;
+}
+
+.portfolio-canvas hr {
+    margin-right: 0px;
+    margin-left: 0px;
+
+}
+
+.portfolio-canvas h2 {
+    color: #4aaaa5;
+}
+
+.gallery-container {
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    align-content: flex-start;
+}
+
+.gallery {
+    color: #dddddd;
+    width: 240px;
+    margin: 2%;
+    text-align: center;
+    position: relative;
+
+}
+
+.gallery img {
+    width: 100%;
+    height: 170px;
+}
+
+.desc {
+    position: absolute ;
+    top: 100px;
+    background-color: #4aaaa5;
+    width: 100%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Alicia Barrett</title>
+    <script src="https://use.fontawesome.com/a48a420e4a.js"></script>
+    <!-- The following script is Google's jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div id="my_header"> </div>
+    <div class= "border"></div>
+
+    <div class= "all-content-container">
+
+        <section class= "main-content">
+
+            <div class= "ContactForm">
+                <h2>Contact</h2>
+
+                <hr>
+
+                <form>
+
+                    Name<br>
+                    <input type="text" name="firstname" placeholder="Jane Doe">
+                    <br>
+
+                    Email<br>
+                    <input type="email" name="lastname" placeholder="example@gmail.com">
+                    <br>
+
+                    Message<br/>
+                    <textarea rows= "10" cols= "71" name= "message"></textarea>
+
+                    <input type="submit" value="Submit" class="submit_button">
+
+                </form>
+
+
+
+             </div>
+
+            <div class = "ContactMe">
+                <aside>
+                    <h3>Connect with Me</h3>
+                    <hr>
+                    <ul class= "icons">
+                        <li><a href="https://github.com/Aliciawyse"><img src="assets/images/github.png" alt="github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/abarrettdc/"><img src="assets/images/linkedin.png" alt="linkedin"></a></li>
+                        <li><a href="https://stackexchange.com/users/8990346/barrett"><img src="assets/images/stack.png" alt="stack"></a></li>
+                    </ul>
+                </aside>
+            </div>
+        </section>
+    </div>
+
+    <div id="my_footer"></div>
+    <script>
+        $("#my_header").load("header.html");
+        $("#my_footer").load("footer.html");
+    </script>
+
+</body>
+</html>
