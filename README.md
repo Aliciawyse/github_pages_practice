@@ -1,6 +1,6 @@
 # My first portfolio
 
-In this assignment, I built a professional portfolio site. The primary purpose of this assignment is to build a portfolio that matches a provided style guide. Check out [my portfolio website](https://aliciawyse.github.io/my_basic_portfolio/).
+In this assignment, I built a professional portfolio site. The primary purpose of this assignment is to build a portfolio that matches a provided style guide. Check out [my portfolio website](https://aliciawyse.github.io/my_basic_portfolio/){:target="_blank"}.
 
 ## Built With
 
