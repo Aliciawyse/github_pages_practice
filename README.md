@@ -44,7 +44,7 @@ In this assignment, I built a professional portfolio site. The primary purpose o
 </script>
 ```
 
-   The  `.load()` method sets the HTML contents in `header.html` or `footer.html` to the elements with the id `#my_header` or `#my_footer`.
+   The `.load()` method sets the HTML contents in `header.html` or `footer.html` to the elements with the id `#my_header` or `#my_footer`.
    
    Implementing a sticky footer was more complicated than I thought. While it works, it blocks content in on the portfolios page (see `portfolio.html`). I plan on revisiting this code to make the sticky footer work properly on this page. 
    
