@@ -32,21 +32,16 @@ In this assignment, I built a professional portfolio site. The primary purpose o
     
    The code I wrote successfully validates. I used W3's validator to confirm. [Validate my code here](https://validator.w3.org/#validate_by_input). 
    
-   I used jQuery so that I could edit my header and footer in their respective html files `header.html` and `footer.html`. This allowed me to edit the header and footer in a single spot versus across each and every html file. Here's how I made that happen. 
-   
-   At the bottom of every file that has a header and footer I have the following:
-   
-   
-   ```javascript   
+   I used jQuery so that I could edit my header and footer in their respective html files `header.html` and `footer.html`. This allowed me to edit the header and footer in a single spot versus across each and every html file. Here's how I made that happen. At the bottom of every file that has a header and footer I have the following code. The `.load()` method sets the HTML contents in `header.html` or `footer.html` to the elements with the id `#my_header` or `#my_footer`.
+
+```javascript   
 <script>
     $("#my_header").load("header.html");
     $("#my_footer").load("footer.html");
 </script>
 ```
 
-   The `.load()` method sets the HTML contents in `header.html` or `footer.html` to the elements with the id `#my_header` or `#my_footer`.
-   
-   Implementing a sticky footer was more complicated than I thought. While it works, it blocks content in on the portfolios page (see `portfolio.html`). I plan on revisiting this code to make the sticky footer work properly on this page. 
+   My biggest challenge was implementing a sticky footer was more complicated than I thought. While it works, it blocks content in on the portfolios page (see `portfolio.html`). I plan on revisiting this code to make the sticky footer work properly on this page. 
    
 ## Use It
 Git clone this repository to your local machine. 
