@@ -9,7 +9,7 @@ In this assignment, I built a professional portfolio site. The primary purpose o
 
 ## Development Process
 
-###Getting started
+### Getting started
 
   I created a new repository in GitHub called `my_basic_portfolio` and created the following.
 
@@ -28,7 +28,7 @@ In this assignment, I built a professional portfolio site. The primary purpose o
 
    ![Portfolio Gallery](assets/images/Portfolio_Gallery.png)
 
-###Challenges and successes
+### Challenges and successes
     
    The code I wrote successfully validates. I used W3's validator to confirm. [Validate my code here](https://validator.w3.org/#validate_by_input). 
    
